@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url("https://img.freepik.com/free-vector/mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.calculator{
+    border:2px solid rgb(7, 7, 7);
+    padding:20px;
+    border-radius:16px;
+    background:transparent;
+    box-shadow:0px 3px 25px white;
+}
+
+input{
+    width:320px;
+    border:none;
+    padding:24px;
+    margin:10px;
+    background:LightGray;
+    box-shadow:0px 3px 15px LightGray;
+    font-size: 40px;
+    text-align:right;
+    cursor:pointer;
+    color:rgb(91, 90, 92);
+}
+#inputbox{
+    border: none;
+    border-radius:30px;
+}
+input::placeholder{
+    color:rgb(46, 46, 46);
+  
+}
+button{
+    border:none;
+    width:60px;
+    height:60px;
+    margin:10px;
+    border-radius:50%;
+    color:black;
+    font-size:20px;
+    box-shadow:-8px -8px 15px rgba(255,255,255,0.1);
+    cursor:pointer;
+    z-index: 999;
+    background-color: lightgray;
+
+}
+.equalBtn{
+    background-color:rgb(65, 60, 206);
+    color: white;
+    
+}
+.opt{
+    color: darkblue;
+    background-color: rgb(180, 180, 180);
+}
